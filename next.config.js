@@ -1,4 +1,4 @@
-const withTwin = require('./config/next-twin.js')
+const withTwin = require('./next-twin.js')
 
 
 module.exports = withTwin({
