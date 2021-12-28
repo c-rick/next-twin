@@ -8,6 +8,7 @@ module.exports = function withTwin() {
 
       webpack(config, options) {
         const { isServer, dev, dir } = options
+        // replace your dir         
         const componentsDir = path.resolve(__dirname, '..', 'src', 'components')
         const pagesDir = path.resolve(__dirname, '..', 'src', 'pages')
         config.module = config.module || {}
